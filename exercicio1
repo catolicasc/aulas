@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Página com Article e Section</title>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Site</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <header>
+                <h2>Título do Artigo</h2>
+                <p>Publicado em: <time datetime="2024-03-01">1º de Março de 2024</time></p>
+            </header>
+            <section>
+                <h3>Introdução</h3>
+                <p>Este é um exemplo de introdução de um artigo, onde você contextualiza o leitor sobre o que ele vai encontrar.</p>
+            </section>
+            <section>
+                <h3>Conteúdo Principal</h3>
+                <p>Aqui é onde o conteúdo principal do seu artigo será colocado. Você pode dividir o artigo em várias seções para melhor organização.</p>
+            </section>
+            <section>
+                <h3>Conclusão</h3>
+                <p>Esta seção pode ser usada para concluir o artigo, resumindo os pontos principais discutidos e fornecendo uma reflexão final.</p>
+            </section>
+            <footer>
+                <p>Comentários sobre o artigo? <a href="mailto:exemplo@site.com">Envie um email</a>.</p>
+            </footer>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
